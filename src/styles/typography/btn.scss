@@ -1,0 +1,16 @@
+.btn-green {
+  display: block;
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  padding: 13px 50px;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--white);
+  background-color: var(--primary);
+  transition: background-color 0.35s ease, color 0.35s ease;
+
+  @include hover {
+    color: var(--primary);
+    background-color: transparent;
+  }
+}
