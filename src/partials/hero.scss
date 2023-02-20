@@ -1,0 +1,26 @@
+.hero {
+  padding: 175px 0 300px;
+  background-image: url("../images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 450px;
+    font-family: "Georgia", serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: var(--primary);
+  }
+
+  &__descr {
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 450px;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--black);
+  }
+}
