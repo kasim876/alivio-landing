@@ -1,0 +1,15 @@
+.footer {
+  padding: 100px 0;
+  background-color: var(--secondary);
+
+  &__nav {
+    margin-top: 60px;
+    color: var(--white);
+
+    .nav__item {
+      &:not(:last-child) {
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
